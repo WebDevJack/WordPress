@@ -1,3 +1,5 @@
+<?php 
+
 /*
    The functions.php file for the custom WordPress theme.
 */
@@ -19,3 +21,5 @@ if ( !function_exists("customtheme_setup") ) :
 endif;
 
 add_action( 'after_setup_theme', 'customtheme_setup' );
+
+?>
